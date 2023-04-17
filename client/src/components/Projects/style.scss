@@ -1,0 +1,90 @@
+@import "../../animation";
+
+.main-flex{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    opacity: 0;
+    transform: translateX(100%);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+.card {
+    width: 270px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    perspective: 1000px;
+    transform-origin: center;
+    box-shadow: 5px 5px 6px #ffffffa4;
+    background-color: #fff;
+    
+    .face {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    .face-front1 {
+        background-image: url('./Figma.png');
+        background-size: cover;
+      }
+  
+      .face-front2 {
+          background-image: url('./Runner.png');
+          background-size: cover;
+          background-position: center;
+      }
+      .face-front3 {
+          background-image: url('./Empire.png');
+          background-size: cover;
+          background-position: center;
+      }
+      .face-front4 {
+          background-image: url('./logo-discord.png');
+          background-size: cover;
+          background-position: center;
+      }
+      .face-front5 {
+        //   background-image: url('../../images/projets/Orecipe.png');
+          background-size: cover;
+         
+      }
+      
+  
+      
+.face-back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+    &-title{
+        
+        padding: 10px;
+        text-align: center;
+    }
+        
+    p {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        }
+      }
+      
+    &:hover {
+        transition-delay: 0.3s;  
+        transform: rotateY(180deg);
+    }
+}

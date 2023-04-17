@@ -1,0 +1,23 @@
+@import "../../animation";
+
+.contact {
+
+    height: 350px;
+    width: 800px;
+    position: relative;
+    left: 400px;
+    top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(100%);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px #ffffffa4;
+    background-color: #eaeaea;
+    
+}

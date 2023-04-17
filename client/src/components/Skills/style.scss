@@ -1,0 +1,36 @@
+.skills{
+    width: 90%;
+    height: 600px;
+    border-radius: 15px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    opacity: 0;
+    transform: translateX(100%);
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.skill{
+    width: 22%;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 6px #ffffffa4;
+    background-color: #ffffff;
+    
+   
+}
+
+.main{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

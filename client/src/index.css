@@ -1,9 +1,12 @@
 body {
   background-color: #000;
   color: #ffffff;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
