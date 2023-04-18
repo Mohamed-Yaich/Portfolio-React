@@ -19,5 +19,31 @@
     border-radius: 15px;
     box-shadow: 5px 5px 6px #ffffffa4;
     background-color: #eaeaea;
+    color: #000;
+    &-logo {
+
+        display: flex;
+        gap: 10px;
+
+    }
+    .button-contact1 {
+
+        border-radius: 40px;
+        height: 30px;
+        width: 30px;
+        background-image: url('./LinkedIn-Symbole.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .button-contact2 {
+
+        border-radius: 40px;
+        height: 30px;
+        width: 30px;
+        background-image: url('./GitHub-logo.png');
+        background-size: cover;
+        background-position: center;
+        
+    }
     
 }

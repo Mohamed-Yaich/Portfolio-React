@@ -27,7 +27,7 @@
     box-shadow: 5px 5px 6px #ffffffa4;
     background-color: #fff;
     
-    .face {
+.face {
       position: absolute;
       top: 0;
       left: 0;
@@ -35,28 +35,28 @@
       height: 100%;
       backface-visibility: hidden;
     }
-    .face-front1 {
+.face-front1 {
         background-image: url('./Figma.png');
         background-size: cover;
       }
   
-      .face-front2 {
+.face-front2 {
           background-image: url('./Runner.png');
           background-size: cover;
           background-position: center;
       }
-      .face-front3 {
+.face-front3 {
           background-image: url('./Empire.png');
           background-size: cover;
           background-position: center;
       }
-      .face-front4 {
+.face-front4 {
           background-image: url('./logo-discord.png');
           background-size: cover;
           background-position: center;
       }
-      .face-front5 {
-        //   background-image: url('../../images/projets/Orecipe.png');
+.face-front5 {
+          background-image: url('./oie.png');
           background-size: cover;
          
       }
@@ -74,17 +74,21 @@
         
         padding: 10px;
         text-align: center;
-    }
-        
-    p {
         font-size: 24px;
         font-weight: bold;
         color: #333;
-        }
-      }
+    }
+    
+    }
       
     &:hover {
         transition-delay: 0.3s;  
         transform: rotateY(180deg);
     }
+.button-project {
+
+    border-radius: 10px;
+    height: 60px;
+    width: 100px;
+}
 }
